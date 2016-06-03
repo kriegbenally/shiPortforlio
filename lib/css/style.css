@@ -1,4 +1,182 @@
-.navbar-default .navbar-collapse {
-    background-color: deeppink;
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+    margin-bottom: 0;
+}
 
+section.module h2 {
+    margin-bottom: 40px;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section.module p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(47,79,79, 1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+section.module p:last-child {
+    margin-bottom: 0;
+}
+
+section.module.content {
+    padding: 40px 0;
+    background-color: rgb(245,245,245);
+}
+
+section.module.parallax {
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*THIS IS THE KB PARALLAX PAGE*/
+section.module.parallax.parallax-1 h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12.5em;
+    line-height: 100%;
+    height: auto;
+    width: auto;
+    font-weight: 700;
+    text-align: start;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax.parallax-1 h5 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2em;
+    line-height: 100%;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding-top: 2.5%;
+}
+/*THIS IS THE END OF THE KB PARALLAX PAGE*/
+
+/*THIS IS THE CODER PARALLAX PAGE*/
+section.module.parallax.parallax-2 h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 200px;
+    line-height: 225px;
+    width: 100%;
+    font-weight: 700;
+    text-align: end;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*THIS IS THE END OF THE CODER PARALLAX PAGE*/
+
+/*THIS IS THE MUSIC PRODUCER PARALLAX PAGE*/
+section.module.parallax.parallax-3 h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 200px;
+    line-height: 225px;
+    width: 100%;
+    font-weight: 700;
+    text-align: start;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*THIS IS THE END OF THE MUSIC PRODUCER PAGE*/
+
+
+/*THIS IS THE PHOTOGRAPHY PARALLAX PAGE*/
+section.module.parallax.parallax-4 h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 125px;
+    line-height: 600px;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*THIS IS THE END OF THE PHOTOGRAPHY PARALLAX PAGE*/
+
+
+section.module.parallax h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12.500em;
+    line-height: 100%;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallax-1 {
+    background-image: url("/lib/images/bluffRideHomeJustYellow.png");
+    background-size: cover;
+}
+
+section.module.parallax-2 {
+    background-image: url("/lib/images/MissionSkies.png");
+    background-size: cover;
+}
+
+section.module.parallax-3 {
+    background-image: url("/lib/images/musicIsLife.png");
+    background-size: cover;
+}
+section.module.parallax-4 {
+    background-image: url("/lib/images/powWowSkies.png");
+    background-size: cover;
+
+}
+
+/*@media all and (min-width: 600px) {*/
+    /*section.module h2 {*/
+        /*font-size: 42px;*/
+    /*}*/
+    /*section.module p {*/
+        /*font-size: 20px;*/
+    /*}*/
+    /*section.module.parallax h1 {*/
+        /*font-size: 96px;*/
+    /*}*/
+/*}*/
+
+/*@media all and (min-width: 960px) {*/
+    /*section.module.parallax h1 {*/
+        /*font-size: 1em;*/
+    /*}*/
+/*}*/
+
+/* ============================================================
+  NAVBAR HEADER
+============================================================ */
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+    margin: 0;
+    background: rgba(220,220,220, 1);
+    background-size: cover;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-weight: 700;
+    text-align: start;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand>img {
+    display: block;
+    height: 50px;
+    padding-bottom: 25px;
 }
